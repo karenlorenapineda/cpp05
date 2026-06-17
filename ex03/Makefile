@@ -3,17 +3,17 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: kpineda- <kpineda-@student.42madrid.com    +#+  +:+       +#+         #
+#    By: kpineda- <kpineda-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/05/03 12:22:15 by kpineda-          #+#    #+#              #
-#    Updated: 2026/05/03 14:26:32 by kpineda-         ###   ########.fr        #
+#    Updated: 2026/06/17 23:03:33 by kpineda-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = Bureaucrat
 
 # Archivos fuente y objetos
-SRC = main.cpp Bureaucrat.cpp
+SRC = main.cpp Bureaucrat.cpp AForm.cpp ShrubberyCreationForm.cpp RobotomyRequestForm.cpp PresidentialPardonForm.cpp Intern.cpp
 OBJ_DIR = obj
 OBJ = $(SRC:.cpp=.o)
 OBJ := $(addprefix $(OBJ_DIR)/, $(OBJ))
