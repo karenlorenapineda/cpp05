@@ -6,7 +6,7 @@
 /*   By: kpineda- <kpineda-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/17 21:02:30 by kpineda-          #+#    #+#             */
-/*   Updated: 2026/06/17 21:02:32 by kpineda-         ###   ########.fr       */
+/*   Updated: 2026/06/22 11:37:50 by kpineda-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,13 +58,17 @@ void ShrubberyCreationForm::execute(Bureaucrat const& executor) const
 		std::cerr << "Couldn't create file." << std::endl;
 		return;
 	}
-    file << "       _-_" << std::endl;
-    file << "    /~~   ~~\\" << std::endl;
-    file << " { @    @  }" << std::endl;
-    file << "    \\  _  /" << std::endl;
-    file << "     `\\ /`" << std::endl;
-    file << "     | |" << std::endl;
-    file << "    /||\\" << std::endl;
+    file << "     ccee88oo" << std::endl;
+	file << "  C8O8O8Q8PoOb o8oo" << std::endl;
+	file << " dOB69QO8PdUOpugoO9bD" << std::endl;
+	file << "CgggbU8OU qOp qOdoUOdcb" << std::endl;
+	file << "    6OuU  /p u gcoUodpP" << std::endl;
+	file << "      \\\\\\//  /douUP" << std::endl;
+	file << "        \\\\\\////" << std::endl;
+	file << "         |||/\\" << std::endl;
+	file << "         |||\\/" << std::endl;
+	file << "         |||||" << std::endl;
+	file << "   .....//||||\\...." << std::endl;
     file.close();
 }
 

@@ -6,7 +6,7 @@
 /*   By: kpineda- <kpineda-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/03 12:31:52 by kpineda-          #+#    #+#             */
-/*   Updated: 2026/06/17 19:49:16 by kpineda-         ###   ########.fr       */
+/*   Updated: 2026/06/22 11:36:28 by kpineda-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,7 +83,7 @@ void	Bureaucrat::signForm(AForm& form)
 	}
 }
 
-void Bureaucrat::executeForm(AForm const& form)
+void Bureaucrat::executeForm(AForm const& form) const
 {
 	try
 	{

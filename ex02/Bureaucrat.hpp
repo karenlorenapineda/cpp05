@@ -6,7 +6,7 @@
 /*   By: kpineda- <kpineda-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/03 12:27:00 by kpineda-          #+#    #+#             */
-/*   Updated: 2026/06/17 19:47:44 by kpineda-         ###   ########.fr       */
+/*   Updated: 2026/06/22 11:32:13 by kpineda-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ public:
 	void	incrementGrade(void);
 	void	decrementGrade(void);
 	void	signForm(AForm& form);
-	void	executeForm(AForm const& form);
+	void	executeForm(AForm const& form) const;
 
 	class GradeTooHighException : public std::exception
 	{

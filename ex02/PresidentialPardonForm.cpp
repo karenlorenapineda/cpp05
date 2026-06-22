@@ -6,7 +6,7 @@
 /*   By: kpineda- <kpineda-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/17 21:02:12 by kpineda-          #+#    #+#             */
-/*   Updated: 2026/06/17 21:02:13 by kpineda-         ###   ########.fr       */
+/*   Updated: 2026/06/22 11:23:58 by kpineda-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ std::string PresidentialPardonForm::getTarget() const
 void  PresidentialPardonForm::execute(Bureaucrat const& executor) const
 {
 	checkExecution(executor);
-	std::cout << _target << " has been pardoned by zaphod Beeblebrox." << std::endl;
+	std::cout << _target << " has been pardoned by Zaphod Beeblebrox." << std::endl;
 }
 
 std::ostream	&operator<<(std::ostream &str, PresidentialPardonForm const &form)
